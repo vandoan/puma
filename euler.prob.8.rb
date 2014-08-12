@@ -14,7 +14,7 @@ def largest_consecutives_5(number)
 		new_product = number[0].to_i * number[1].to_i * number[2].to_i * number[3].to_i * number[4].to_i 
 #convert the splitted digits to single ones
 		product = new_product > product ? new_product : product
- #if the new product is greater than the original, then the new_product becomes the original
+ #if the new product is greater than the original, then the new_product becomes the original. if true, the variable before the ':' will pass. if not, the latter
  		number.shift
  #removes the first number and returns it
  	end
