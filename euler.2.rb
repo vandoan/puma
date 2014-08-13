@@ -7,14 +7,13 @@
 
 def fibonocchi(a,b,limit)
 
-
-
 	while a + b  < limit  
+		#while statement 
 		a, b= b, a + b
+		# the key to updating the instances
 		end 
-
 	puts "The last two fibonocchi numbers before #{limit} are #{a} and #{b}."
-
+	
 end 
 
 puts fibonocchi(1, 2, 4000000)
